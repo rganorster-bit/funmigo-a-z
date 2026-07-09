@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FUNMIGO QR Tools</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0057ff, #ffcc00, #ff2b2b);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      background: rgba(0,0,0,0.65);
+      border-radius: 28px;
+      padding: 28px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0;
+      color: #ffcc00;
+      text-shadow: 3px 3px #000;
+    }
+
+    h2 {
+      margin-top: 8px;
+      font-size: 22px;
+    }
+
+    .buttons {
+      margin-top: 24px;
+      display: grid;
+      gap: 14px;
+    }
+
+    button {
+      font-size: 21px;
+      font-weight: bold;
+      padding: 16px;
+      border: none;
+      border-radius: 18px;
+      background: white;
+      color: #111;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ffcc00;
+    }
+
+    .footer {
+      margin-top: 24px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FUNMIGO</h1>
+    <h2>QR Tools</h2>
+
+    <div class="buttons">
+      <button onclick="comingSoon()">Random Letter</button>
+      <button onclick="comingSoon()">Random Number</button>
+      <button onclick="comingSoon()">Song Sprint</button>
+      <button onclick="comingSoon()">Broken Sentences</button>
+      <button onclick="comingSoon()">Wrong Answers Only</button>
+      <button onclick="comingSoon()">Who Am I?</button>
+      <button onclick="comingSoon()">Timer</button>
+    </div>
+
+    <div class="footer">LET’S FUNMIGO</div>
+  </div>
+
+  <script>
+    function comingSoon() {
+      alert("Coming Soon!");
+    }
+  </script>
+</body>
+</html>
